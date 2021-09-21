@@ -18,3 +18,16 @@ $ ruby wwdc_downloader.rb https://developer.apple.com/videos/play/wwdc2016/416/
 
 ### Select your choices step by step
 
+## Requirements
+
+### ffmpeg
+
+```shell
+$ brew install ffmpeg
+```
+
+### curl
+
+```shell
+$ brew install curl
+```
