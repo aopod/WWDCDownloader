@@ -245,6 +245,7 @@ mp4DownloadInfo = nil
 if mp4Selection == 0
     puts "Skip downloading MP4 video"
 else
+    mp4Selection = mp4Selection - 1
     mp4DownloadInfo = $pageInfo["mp4_downloads"][mp4Selection]
     puts "Will download #{mp4Selection}: #{mp4DownloadInfo['filename']}(#{mp4DownloadInfo['url']})"
 end
